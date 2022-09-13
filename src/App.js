@@ -1,10 +1,9 @@
-import './App.css';
-
-const App = () =>
-{
+function App() {
   return (
-    <h1>Hello User!</h1>
+    <div>
+      <h2>Let's get started!</h2>
+    </div>
   );
-};
+}
 
 export default App;
