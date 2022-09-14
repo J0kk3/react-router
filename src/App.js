@@ -5,6 +5,7 @@ import Products from './pages/Products';
 import ProductDetail from './pages/ProductDetail';
 //components
 import MainHeader from './components/MainHeader';
+
 function App ()
 {
   return (
@@ -17,7 +18,7 @@ function App ()
             <Route
               path='new-user'
               element={ <p>Welcome, new user!</p> }
-            ></Route>
+            />
           </Route>
           <Route path='/products' element={ <Products /> } />
           <Route path='/products/:productId' element={ <ProductDetail /> } />
